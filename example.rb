@@ -1,3 +1,6 @@
+# By Mischa Fierer
+# http://www.themomorohoax.com
+
 class Example
 	def denote; puts "#{("~" * 80)}\n\n"; yield; puts "#{("~" * 80)}\n\n" end
 
