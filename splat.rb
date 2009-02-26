@@ -61,7 +61,7 @@ end
 # Behavior: Rick DeNatale / matz
 
 Example.new("Range inside parens inside array") do
-	"[*(1..4)]"
+	"p [*(1..4)]"
 end
 
 def a(*arg)
@@ -89,7 +89,7 @@ Example.new("Range plus string") do
 end
 
 Example.new("String then range assignment with splat") do
-	'*a = "foo\nbar", (1..3)'
+	'*a = "foo\nbar", (1..3); p a'
 end
 
 
