@@ -29,7 +29,7 @@ Example.new("Explode the array") do
 	'y = [1,2,3]; p *y'
 end
 
-Example.new("Hrm. The unarrayed obj must be [[x]]") do
+Example.new("The unarrayed obj") do
 	'*y = [1,2,3]; p y'
 end
 
@@ -163,7 +163,7 @@ REFERENCES = %Q!
 
 	David Black:
 
-	 *y always means: that which, whenwrapped in an array, is y
+	I've always called this the "unary unarray" operator. 
 
 	More:
 
