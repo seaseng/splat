@@ -1,0 +1,20 @@
+Hi,
+
+
+In ruby [*[1,2,3]] == [1,2,3]. 
+
+It doesn't stop there. The splat does all kinds of stuff.
+
+
+
+To play with it, clone this, and then run splat.rb.
+
+
+If you want, you can try to guess what ruby will give.
+
+Run it in both 1.8 and 1.9 to see the differences.
+
+
+Best,
+
+Mischa 
