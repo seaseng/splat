@@ -68,6 +68,17 @@ def a(*arg)
 	p arg
 end
 
+puts %Q{
+
+For the next two examples:
+
+def a(*arg)
+	p arg
+end
+
+	
+}
+
 Example.new("String with \\n") do
 	'a("foo\nbar")'
 end
@@ -84,17 +95,17 @@ end
 
 # Behavior: Multiple splats in Ruby 1.9
 Example.new("I wonder if this will work?") do
-	"a, b, c = *[1, 2], 3"
+	"a, b, c = *[1, 2], 3; p a, b, c"
 end
 
 
 Example.new("Will this work?") do
-	"a, b, c = 1, *[2, 3]"
+	"a, b, c = 1, *[2, 3]; p a, b, c;"
 end
 
 
 Example.new("What about this?") do
-	"a, b, c, d, e, f = *[1, 2], 3, *[4, 5]"
+	"a, b, c, d, e, f = *[1, 2], 3, *[4, 5]; p a,b,c,d,e,f"
 end
 
 # How does it work?

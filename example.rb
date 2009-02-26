@@ -35,7 +35,7 @@ class Example
 			@@total += 1
 		end
 
-		puts("\n\nNext?")
+		puts("\n\nPress any key for next example")
 		gets
 	end
 
