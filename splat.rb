@@ -9,8 +9,7 @@
 # If you want to be tested, predict the output.
 # If you want to run through stuff, just hit enter.
 
-
-require 'example.rb'
+require File.expand_path('example', File.dirname(__FILE__))
 
 puts "\n\n\n\n#{"Splats are weird.".center(40)}\n\t\tBy Mischa Fierer\n\n"
 
